@@ -1,0 +1,31 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  
+  .drum-pad{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #info{
+    text-align: center;
+    margin-bottom: 20px;
+  }

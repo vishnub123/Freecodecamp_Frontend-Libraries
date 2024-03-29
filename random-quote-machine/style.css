@@ -1,0 +1,27 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quote-box{
+    width: 300px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  #new-quote{
+    background: green;
+    color: white;
+    border: unset;
+    padding: 5px 15px;
+    margin: 15px 0;
+  }
+  
+  #text{
+    text-align: center;
+  }
